@@ -4,13 +4,13 @@ memory: 2048
 cpus: 1
 
 folders:
-    - map: .
+    - map: /Users/ashleycoker/Documents/Sites/slate-ee
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.app
-      to: /home/vagrant/Code/Laravel/public
+    - map: slate-ee
+      to: /home/vagrant/Code/webroot
 
 variables:
-    - key: APP_ENV
+    - key: APP_ENVx
       value: local
